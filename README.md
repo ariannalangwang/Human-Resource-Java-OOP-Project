@@ -18,7 +18,7 @@
 
 
 ### PROJECT OVERVIEW:
-This is a Java data science project with a human resource dataset found on Kaggle. The dataset can be found here: https://www.kaggle.com/rhuebner/human-resources-data-set.
+This is a Java project with a human resource dataset found on Kaggle. The dataset can be found here: https://www.kaggle.com/rhuebner/human-resources-data-set.
 
 This project contains 4 classes:
 
