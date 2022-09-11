@@ -1,3 +1,22 @@
+### PROJECT OVERVIEW:
+This is a Java project with a human resource dataset found on Kaggle. The dataset can be found here: https://www.kaggle.com/rhuebner/human-resources-data-set.
+
+This project contains 4 classes:
+
+- The Data class imports the raw dataset and contains different methods for cleaning, wrangling and exploring the data.
+
+- The Graphs class does all the data visualizations. I plotted pie charts, histograms and box plots in this class.
+
+- The PredictPayRate class uses linear regression to predict employees' pay rates.  
+
+- Lastly, the ProjectRunner class runs the whole project.
+
+ Both the Graphs class and the PredictPayRate class use the data frame from the Data class.
+ 
+ Furthermore, I have done JUnit testing for both the Data class and the PredictPayRate class. 
+ 
+ 
+ 
 ### HOW TO RUN THE PROJECT:
 1. This project is built as a maven project with dependencies from various libraries. 
 
@@ -16,24 +35,6 @@
 4. After clicking "Run", you should see the outputs in the output window and all the graphs should be produced in different internet browser tabs. 
 
 
-
-### PROJECT OVERVIEW:
-This is a Java project with a human resource dataset found on Kaggle. The dataset can be found here: https://www.kaggle.com/rhuebner/human-resources-data-set.
-
-This project contains 4 classes:
-
-- The Data class imports the raw dataset and contains different methods for cleaning, wrangling and exploring the data.
-
-- The Graphs class does all the data visualizations. I plotted pie charts, histograms and box plots in this class.
-
-- The PredictPayRate class uses linear regression to predict employees' pay rates.  
-
-- Lastly, the ProjectRunner class runs the whole project.
-
- Both the Graphs class and the PredictPayRate class use the data frame from the Data class.
- 
- Furthermore, I have done JUnit testing for both the Data class and the PredictPayRate class. 
- 
 
 ### APPENDIX:
 
